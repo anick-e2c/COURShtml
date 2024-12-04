@@ -3,68 +3,46 @@ body{
     padding: 0;
     margin: 0;
 }
+
 nav{
     background-color: yellow;
     text-decoration: none;
-    margin: 10px;
 }
-li{
+nav ul{
+    display: flex; /* aligner les element de ul*/
+    list-style-type: none;/* enlever les point*/
+    justify-content: center;/*center l'element*/
+    gap: 15px;
+}
+nav a{
+    text-decoration: none;/*supression du soulignement*/
+    color: black;
     
-
 }
-.main{
-
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+/* changer de couleur au survol*/
+nav a:hover{
+    color:red
+}
+section{
+    margin-top: 50px;
+}
+.contenaire{
+    border: 1px solid black;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;/* permet definir l'affichage 50% sur é colonnes iciµ*/
+    gap: 80px;
+    
 }
 .div_1{
-    background-color: brown;
-    border-style: dotted black ;
-    padding: 10px;
-    margin: 10px;
-    border: 2px;
-    width: 300px;
-    height: 400px;
-    text-align: justify;
-    text-align: left;
-    border-radius: 7px;
+    margin: auto;
+    text-align: center;
 }
 .div_2{
-    background-color: gray;
-    border-style: dotted black ;
-    margin: 10px;
-    padding: 10px;
-    border: 2px;
-    width: 300px;
-    height: 400px;
-    text-align: left;
-    text-align: justify;
-    border-radius: 7px;
-    
+    text-align: center;
+    margin: auto;
 }
-.div_3{
-    background-color: green;
-    border-style: dotted black ;
-    margin: 10px;
-    padding: 10px;
-    border: 2px;
-    width: 300px;
-    height: 400px;
-    text-align: left;
-    text-align: justify;
-    border-radius: 7px;
-    
-}
-.div_4{
-    background-color: yellow;
-    border-style: dotted black ;
-    margin: 10px;
-    padding: 10px;
-    border: 2px;
-    width: 300px;
-    height: 400px;
-    text-align: left;
-    text-align: justify;
-    border-radius: 7px;
+img{
+    max-width: 590px;
+    max-height: 600px;
 }
