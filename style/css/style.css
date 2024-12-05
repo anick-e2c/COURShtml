@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    
     padding: 0;
     margin: 0;
 }
@@ -17,17 +17,18 @@ nav ul{
 nav a{
     text-decoration: none;/*supression du soulignement*/
     color: black;
+    font-size: 20px
     
 }
 /* changer de couleur au survol*/
 nav a:hover{
     color:red
 }
-section{
+section1{
     margin-top: 50px;
 }
 .contenaire{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     height: 500px;
     display: grid;
     grid-template-columns: 50% 50%;/* permet definir l'affichage 50% sur é colonnes iciµ*/
@@ -45,4 +46,58 @@ section{
 img{
     max-width: 590px;
     max-height: 600px;
+}
+.lien_github{
+    margin: auto;
+}
+.lien_github button{
+    background-color: rgb(34, 34, 238);
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor:cell;
+}
+/*style section 2*/
+.section2{
+    margin-top: 50px;
+}
+.contenaire2{
+    background-color: rgb(221, 218, 218);
+     /*border: 1px solid black;*/
+     height: 500px;
+     display: grid;
+     grid-template-columns: 50% 50%;/* permet definir l'affichage 50% sur é colonnes iciµ*/
+     gap: 80px;
+}
+.div2_1{
+    margin: auto;
+    text-align: center;
+}
+.div2_2{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+img{
+    max-width: 590px;
+    max-height: 600px;
+}
+.lien_github{
+    margin: auto;
+}
+.lien_github_2 button{
+    background-color: rgb(34, 34, 238);
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor:cell;
 }
